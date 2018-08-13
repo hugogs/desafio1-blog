@@ -15,3 +15,12 @@
 .contenido{
   color: #25485c;
 }
+.logotipo{
+  display: inline-block;
+}
+.menu{
+  display: inline-block;
+}
+.menu li{
+  display: inline-block;
+}
