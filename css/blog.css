@@ -1,4 +1,16 @@
-* {
+/* * {
   border: 1px solid red;
   margin: 10px;
+} */
+.header{
+  color: white;
+  background: #25485c;
+}
+.portada{
+  background-image: url('../Imagenes/portada.jpg');
+  font-size: 16px;
+  color: #25485c;
+}
+.contenido{
+  color: #25485c;
 }
