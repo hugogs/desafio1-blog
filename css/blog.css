@@ -14,24 +14,16 @@ body{
 .portada{
   background-color: #dee1e2;
 }
-.buscador{
-  width: 1000px;
-  margin: auto;
-}
 .imagen{
   background-image: url('../Imagenes/portada.jpg');
   font-size: 16px;
   color: #25485c;
   padding-top: 70px;
   padding-bottom: 70px;
-  width: 1000px;
   height: 500px;
-  margin: auto;
 }
 .contenido{
   color: #25485c;
-  width: 1000px;
-  margin: auto;
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -52,6 +44,10 @@ body{
   margin-left: 20px;
 }
 .footer{
+  width: 1000px;
+  margin: auto;
+}
+.contenedor{
   width: 1000px;
   margin: auto;
 }
