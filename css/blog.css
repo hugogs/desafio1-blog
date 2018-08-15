@@ -22,6 +22,14 @@ body{
   padding-bottom: 70px;
   height: 500px;
 }
+button{
+  color: white;
+  background: rgb(252, 74, 72);
+  border: none;
+  border-radius: 3px;
+  width: 90px;
+  height: 25px;
+}
 .contenido{
   color: #25485c;
   margin-top: 10px;
@@ -30,24 +38,38 @@ body{
 }
 .logotipo{
   display: inline-block;
-  margin: 8px;
+  margin: 6px;
 }
 .menu{
   display: inline-block;
   /* margin: 0; */
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
 .menu ul{
   margin: 0;
 }
 .menu li{
   display: inline-block;
-  margin-left: 20px;
+  margin-right: 5px;
 }
 .footer{
   width: 1000px;
   margin: auto;
 }
 .contenedor{
-  width: 1000px;
+  width: 1320px;
   margin: auto;
+}
+h1{
+  /* background-color: #c9bfbf; */
+  background: rgba(242, 234, 234, 0.7);
+  /* border: 1px solid red; */
+  width: 600px;
+  height: 180px;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  bottom: -300px;
 }
