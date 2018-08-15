@@ -1,6 +1,6 @@
 *{
-  /* border: 1px solid red;
-  padding: 10px;
+  /* border: 1px solid red; */
+  /* padding: 10px;
   margin: 10px; */
   font-family: 'Lato', sans-serif;
 }
@@ -10,6 +10,10 @@ body{
 .header{
   color: white;
   background: #25485c;
+}
+.buscador{
+  display: flex;
+  justify-content: flex-end;
 }
 .portada{
   background-color: #dee1e2;
@@ -30,11 +34,51 @@ button{
   width: 90px;
   height: 25px;
 }
+.contenedor{
+  width: 1320px;
+  margin: auto;
+}
 .contenido{
   color: #25485c;
-  margin-top: 10px;
+  /* margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
+  margin-left: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.derecha{
+  float: right;
+  position: relative;
+  top: -40px;
+}
+.izquierda{
+  float: left;
+  position: relative;
+  top: -40px;
+}
+.info{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+span{
+  font-size: 20px;
+  color:rgba(185, 185, 185, 0.8);
+}
+p{
+  margin-top: 5px;
+  margin-bottom: 50px;
+  width: 420px;
+  font-size: 35px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid;
+  border-color: rgba(185, 185, 185, 0.7);
+  position: relative;
+}
+p derecha{
+  border: none;
+  float: right;
 }
 .logotipo{
   display: inline-block;
@@ -58,16 +102,13 @@ button{
   width: 1000px;
   margin: auto;
 }
-.contenedor{
-  width: 1320px;
-  margin: auto;
-}
 h1{
   /* background-color: #c9bfbf; */
   background: rgba(242, 234, 234, 0.7);
   /* border: 1px solid red; */
   width: 600px;
   height: 180px;
+  font-size: 35px;
   margin: 20px;
   padding: 20px;
   position: relative;
